@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blue Star Lawn Services – Professional lawn care for the DFW area. Mowing, trimming, landscaping, and more." />
+  <title>Blue Star Lawn Services</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo-link">
+        <!-- Inline SVG star logo (placeholder until image asset is added) -->
+        <svg class="logo-icon" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="30,4 37,22 57,22 42,34 48,52 30,41 12,52 18,34 3,22 23,22"
+                   fill="#003594" stroke="#ffffff" stroke-width="1.5"/>
+          <!-- Grass blades inside star -->
+          <line x1="24" y1="38" x2="22" y2="28" stroke="#4caf50" stroke-width="2" stroke-linecap="round"/>
+          <line x1="28" y1="38" x2="28" y2="25" stroke="#66bb6a" stroke-width="2" stroke-linecap="round"/>
+          <line x1="32" y1="38" x2="34" y2="27" stroke="#4caf50" stroke-width="2" stroke-linecap="round"/>
+          <line x1="36" y1="38" x2="38" y2="30" stroke="#81c784" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">Blue Star <span class="logo-sub">Lawn Services</span></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#pay" class="nav-cta">Pay My Bill</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Serving the DFW Area</div>
+      <h1>Professional Lawn Care<br/>You Can Count On</h1>
+      <p class="hero-sub">Reliable, affordable, and detail-oriented lawn services — so you can enjoy your yard without the work.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#pay" class="btn btn-outline">Pay My Bill</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll down</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <div class="star-divider" aria-hidden="true">&#9733;</div>
+        <h2>Our Services</h2>
+        <p class="section-sub">Everything your lawn needs, handled with care and professionalism.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="40" width="48" height="8" rx="4" fill="#869397"/>
+              <rect x="26" y="20" width="4" height="20" rx="2" fill="#003594"/>
+              <rect x="34" y="20" width="4" height="20" rx="2" fill="#003594"/>
+              <path d="M16 40 Q20 24 28 20 Q32 18 36 20 Q44 24 48 40" fill="none" stroke="#003594" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Lawn Mowing</h3>
+          <p>Weekly, bi-weekly, or one-time cuts with clean edges and a professional finish every visit.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 52 L28 20 L44 52 Z" fill="#003594" opacity="0.2"/>
+              <line x1="20" y1="52" x2="16" y2="30" stroke="#003594" stroke-width="3" stroke-linecap="round"/>
+              <line x1="28" y1="52" x2="28" y2="24" stroke="#003594" stroke-width="3" stroke-linecap="round"/>
+              <line x1="36" y1="52" x2="40" y2="30" stroke="#003594" stroke-width="3" stroke-linecap="round"/>
+              <line x1="44" y1="52" x2="44" y2="36" stroke="#003594" stroke-width="3" stroke-linecap="round"/>
+              <line x1="8" y1="52" x2="56" y2="52" stroke="#869397" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Edging &amp; Trimming</h3>
+          <p>Crisp borders along driveways, walkways, and fence lines for a polished, well-kept look.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="44" width="48" height="8" rx="3" fill="#869397"/>
+              <path d="M16 44 Q16 28 24 24 Q28 22 32 24 Q40 28 40 44" fill="#003594" opacity="0.3"/>
+              <circle cx="32" cy="20" r="6" fill="#003594"/>
+              <line x1="32" y1="14" x2="32" y2="8" stroke="#003594" stroke-width="2"/>
+              <line x1="38" y1="16" x2="43" y2="11" stroke="#003594" stroke-width="2"/>
+              <line x1="26" y1="16" x2="21" y2="11" stroke="#003594" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Shrub &amp; Hedge Shaping</h3>
+          <p>Precision shaping and trimming of hedges, bushes, and ornamental shrubs.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 52 Q20 28 32 32 Q44 36 56 16" fill="none" stroke="#869397" stroke-width="2" stroke-dasharray="4"/>
+              <circle cx="32" cy="32" r="4" fill="#003594"/>
+              <circle cx="20" cy="42" r="3" fill="#869397"/>
+              <circle cx="44" cy="26" r="3" fill="#869397"/>
+            </svg>
+          </div>
+          <h3>Seasonal Cleanup</h3>
+          <p>Spring and fall cleanups including leaf removal, debris clearing, and bed prep.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <rect x="28" y="16" width="8" height="32" rx="4" fill="#003594"/>
+              <ellipse cx="32" cy="16" rx="12" ry="8" fill="#003594" opacity="0.3"/>
+              <line x1="20" y1="28" x2="8" y2="20" stroke="#003594" stroke-width="2" stroke-linecap="round"/>
+              <line x1="44" y1="28" x2="56" y2="20" stroke="#003594" stroke-width="2" stroke-linecap="round"/>
+              <line x1="20" y1="36" x2="8" y2="40" stroke="#003594" stroke-width="2" stroke-linecap="round"/>
+              <line x1="44" y1="36" x2="56" y2="40" stroke="#003594" stroke-width="2" stroke-linecap="round"/>
+              <rect x="24" y="48" width="16" height="4" rx="2" fill="#869397"/>
+            </svg>
+          </div>
+          <h3>Tree &amp; Bush Trimming</h3>
+          <p>Safe trimming and shaping of trees and large bushes to maintain health and appearance.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="24" width="44" height="28" rx="4" fill="none" stroke="#003594" stroke-width="2.5"/>
+              <path d="M18 24 V18 Q18 10 32 10 Q46 10 46 18 V24" fill="none" stroke="#003594" stroke-width="2.5"/>
+              <circle cx="32" cy="38" r="5" fill="#003594"/>
+              <line x1="32" y1="43" x2="32" y2="48" stroke="#003594" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Gated Community &amp; HOA</h3>
+          <p>Reliable scheduled service for gated communities, HOA properties, and commercial lots.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-dark">
+    <div class="container about-inner">
+      <div class="about-star" aria-hidden="true">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="60,8 74,44 114,44 84,68 96,104 60,82 24,104 36,68 6,44 46,44"
+                   fill="#003594" stroke="#869397" stroke-width="2"/>
+          <text x="60" y="70" text-anchor="middle" fill="white" font-size="13" font-family="Oswald,sans-serif" font-weight="600">BLUE STAR</text>
+        </svg>
+      </div>
+      <div class="about-text">
+        <div class="section-header left-align">
+          <div class="star-divider" aria-hidden="true">&#9733;</div>
+          <h2>About Us</h2>
+        </div>
+        <p>Blue Star Lawn Services was built on a simple idea: <strong>every yard deserves the same care we'd give our own.</strong> We're a locally owned lawn care company serving the DFW metroplex with professionalism, reliability, and a commitment to quality on every job.</p>
+        <p>Whether you need a one-time mow or ongoing full-service maintenance, our team shows up on time, works with precision, and leaves your property looking its best.</p>
+        <ul class="about-list">
+          <li><span class="star-bullet">&#9733;</span> Locally owned &amp; operated in the DFW area</li>
+          <li><span class="star-bullet">&#9733;</span> Licensed &amp; insured for your peace of mind</li>
+          <li><span class="star-bullet">&#9733;</span> Flexible scheduling — weekly, bi-weekly, monthly</li>
+          <li><span class="star-bullet">&#9733;</span> Free no-obligation estimates</li>
+          <li><span class="star-bullet">&#9733;</span> Satisfaction guaranteed on every visit</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Request a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PAY MY BILL ===== -->
+  <section id="pay" class="section-pay">
+    <div class="container">
+      <div class="section-header">
+        <div class="star-divider dark" aria-hidden="true">&#9733;</div>
+        <h2>Pay My Bill</h2>
+        <p class="section-sub">Paying your invoice is quick and easy. Enter your invoice number below to get started.</p>
+      </div>
+
+      <div class="pay-card">
+        <div class="pay-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="16" width="56" height="38" rx="6" fill="#003594"/>
+            <rect x="4" y="26" width="56" height="10" fill="#001f5e"/>
+            <rect x="12" y="40" width="16" height="6" rx="3" fill="#869397"/>
+            <rect x="36" y="40" width="10" height="6" rx="3" fill="#869397" opacity="0.5"/>
+          </svg>
+        </div>
+        <h3>Secure Online Payment</h3>
+        <p>Our online payment portal is being set up. Once live, you'll be able to pay your invoice directly here using a credit card, debit card, or ACH bank transfer.</p>
+
+        <div class="pay-options">
+          <div class="pay-option-badge">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="4" fill="#635bff"/>
+              <text x="16" y="22" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif" font-weight="bold">stripe</text>
+            </svg>
+          </div>
+          <div class="pay-option-badge">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="4" fill="#2ca01c"/>
+              <text x="16" y="14" text-anchor="middle" fill="white" font-size="6" font-family="sans-serif" font-weight="bold">Quick</text>
+              <text x="16" y="22" text-anchor="middle" fill="white" font-size="6" font-family="sans-serif" font-weight="bold">Books</text>
+            </svg>
+          </div>
+          <div class="pay-option-badge">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="4" fill="#ff6b35"/>
+              <text x="16" y="20" text-anchor="middle" fill="white" font-size="11" font-family="sans-serif" font-weight="bold">J</text>
+            </svg>
+          </div>
+        </div>
+        <p class="pay-coming-soon">Payment portal coming soon — we'll notify all customers when it's live.</p>
+
+        <div class="pay-form-wrap">
+          <p class="pay-alt-text">In the meantime, <strong>call or text us</strong> and we'll get you squared away:</p>
+          <a href="tel:+1XXXXXXXXXX" class="btn btn-primary btn-lg" id="pay-phone-btn">Call or Text to Pay</a>
+          <p class="pay-or">— or —</p>
+          <form class="pay-notify-form" id="pay-notify-form" novalidate>
+            <label for="notify-email">Notify me when online payments are live:</label>
+            <div class="input-row">
+              <input type="email" id="notify-email" name="email" placeholder="your@email.com" required autocomplete="email" />
+              <button type="submit" class="btn btn-primary">Notify Me</button>
+            </div>
+            <p class="form-success" id="notify-success" aria-live="polite" hidden>Thanks! We'll let you know as soon as it's ready.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <div class="star-divider" aria-hidden="true">&#9733;</div>
+        <h2>Get in Touch</h2>
+        <p class="section-sub">Request a free quote or ask us anything. We'll get back to you fast.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Phone / Text</strong>
+              <a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@bluestarlawnservices.com">info@bluestarlawnservices.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Service Area</strong>
+              <span>Dallas / Fort Worth Metroplex</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sat: 7:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="cf-name">Full Name *</label>
+              <input type="text" id="cf-name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="cf-phone">Phone *</label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="(214) 555-0100" required autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="jane@example.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="cf-address">Property Address *</label>
+            <input type="text" id="cf-address" name="address" placeholder="123 Main St, Dallas, TX" required autocomplete="street-address" />
+          </div>
+          <div class="form-group">
+            <label for="cf-service">Service Needed</label>
+            <select id="cf-service" name="service">
+              <option value="">— Select a service —</option>
+              <option>Lawn Mowing</option>
+              <option>Edging &amp; Trimming</option>
+              <option>Shrub &amp; Hedge Shaping</option>
+              <option>Seasonal Cleanup</option>
+              <option>Tree &amp; Bush Trimming</option>
+              <option>Full Lawn Maintenance Package</option>
+              <option>Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message / Notes</label>
+            <textarea id="cf-message" name="message" rows="4" placeholder="Tell us about your yard, how often you need service, any special requests…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">Send My Request</button>
+          <p class="form-success" id="contact-success" aria-live="polite" hidden>Thanks! We'll be in touch shortly to confirm your free quote.</p>
+          <p class="form-error" id="contact-error" aria-live="polite" hidden>Please fill in all required fields.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg class="logo-icon" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="30,4 37,22 57,22 42,34 48,52 30,41 12,52 18,34 3,22 23,22"
+                   fill="#003594" stroke="#869397" stroke-width="1.5"/>
+          <line x1="24" y1="38" x2="22" y2="28" stroke="#4caf50" stroke-width="2" stroke-linecap="round"/>
+          <line x1="28" y1="38" x2="28" y2="25" stroke="#66bb6a" stroke-width="2" stroke-linecap="round"/>
+          <line x1="32" y1="38" x2="34" y2="27" stroke="#4caf50" stroke-width="2" stroke-linecap="round"/>
+          <line x1="36" y1="38" x2="38" y2="30" stroke="#81c784" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <span class="footer-name">Blue Star Lawn Services</span>
+          <span class="footer-tagline">Keeping DFW yards looking their best.</span>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#pay">Pay Bill</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> Blue Star Lawn Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
